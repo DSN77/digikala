@@ -1,0 +1,117 @@
+div.wonderful {
+  width: 100%;
+  height: 110px;
+  position: absolute;
+  top: 1255px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+a.wonder {
+  width: 99%;
+  height: inherit;
+  background-color: rgb(211, 201, 201);
+  border-radius: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  cursor: pointer;
+}
+div.wonderful > a.wonder > div.wonderfulchild {
+  width: 99%;
+  height: inherit;
+}
+div.wonderful > a.wonder > div.wonderfulchild > div.wonderdetail {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+div.wonderful > a.wonder > div.wonderfulchild > div.wonderdetail > img {
+  width: 90px;
+  height: 90px;
+  margin-right: 50px;
+  margin-top: auto;
+}
+div.wonderful > a.wonder > div.wonderfulchild > div.wonderdetail > svg {
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  right: 160px;
+  font-size: 20px;
+}
+div.wonderful
+  > a.wonder
+  > div.wonderfulchild
+  > div.wonderdetail
+  > div.wonderdiscount {
+  width: 110px;
+  height: 30px;
+  background-color: #029a49;
+  position: absolute;
+  top: 45px;
+  right: 470px;
+  border-radius: 20px;
+}
+div.wonderful
+  > a.wonder
+  > div.wonderfulchild
+  > div.wonderdetail
+  > div.wonderdiscount
+  > p.wonder {
+  width: 100%;
+  height: 100%;
+  font-family: iranyekan;
+  font-size: 15px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+div.wonderful > a.wonder > div.wonderimg {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  left: 30px;
+}
+div.wonderful > a.wonder > div.wonderimg > div.imgpack > img.wonder {
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+div.wonderful > a.wonder > div.wonderimg > div.imgpack > span.wonderdetail {
+  width: 30px;
+  font-family: iranyekan;
+  position: absolute;
+  top: 65px;
+  margin-right: -95px;
+  border-radius: 10px;
+  background-color: crimson;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  padding: 0 5px;
+}
+div.wonderful > a.wonder > div.wonderimg > div.imgpack > div.wonderbtn {
+  width: 130px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  left: -20px;
+  top: 35px;
+}
+div.wonderful > a.wonder > div.wonderimg > div.imgpack > div.wonderbtn > p {
+  font-family: iranyekan;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  color: #029a49;
+}

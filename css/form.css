@@ -1,0 +1,86 @@
+div.form {
+  width: 400px;
+  height: 510px;
+  margin: 40px auto;
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  border-radius: 2%;
+}
+div.logo > svg {
+  width: 27%;
+  margin: 0.5% 37%;
+  padding-bottom: 4;
+}
+div.enter > h1 {
+  text-align: right;
+  margin-right: 5%;
+  font-family: iranyekan;
+  font-size: 19px;
+  padding-bottom: 8%;
+}
+div.detail > p {
+  text-align: right;
+  line-height: 2.17;
+  font-weight: 400;
+  margin-right: 5%;
+  font-family: iranyekan;
+  color: rgba(0, 0, 0, 0.603);
+  font-size: 12px;
+}
+div.input > form > input[type="text"] {
+  width: 350px;
+  padding: 3%;
+  margin-right: 5%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 5%;
+  border: unset;
+  border: solid #008eb2 1px;
+  color: rgba(0, 0, 0, 0.61);
+  font-family: iranyekan;
+  font-size: 15px;
+}
+div.input > form > input[type="submit"] {
+  width: 350px;
+  padding: 4%;
+  margin-top: 10%;
+  margin-right: 7%;
+  background-color: #ef4056;
+  border: unset;
+  border-radius: 10px;
+  color: white;
+  font-family: iranyekan;
+  font-size: 15px;
+}
+input[type="text"]:focus {
+  /* all: unset; */
+  outline: red;
+}
+
+div.input > p {
+  text-align: right;
+  margin-right: 5%;
+  color: #d32f2f;
+  font-family: iranyekan;
+  font-size: 12px;
+}
+
+div.role > p {
+  font-family: iranyekan;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 4%;
+  color: rgba(0, 0, 0, 0.603);
+}
+a {
+  all: unset;
+  color: #008eb2;
+}
+div.role > p > a:hover {
+  cursor: pointer;
+}
+div.input > form > input[type="submit"]:hover {
+  cursor: pointer;
+}
+div.logo > svg:hover {
+  cursor: pointer;
+}

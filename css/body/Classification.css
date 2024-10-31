@@ -1,0 +1,324 @@
+div.Classification {
+  width: 98%;
+  height: 410px;
+  /* background-color: blue; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  top: 2900px;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 15px;
+}
+div.Classification > div.Classification1 {
+  width: 24.5%;
+  height: inherit;
+  border-left: 1px solid rgb(196, 194, 194);
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  cursor: pointer;
+}
+div.Classification > div.Classification1 > div.titleclass1 {
+  width: 99%;
+  height: 60px;
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  cursor: text;
+}
+div.Classification > div.Classification1 > div.titleclass1 > span.firstclass {
+  font-family: iranyekan;
+  margin-right: 20px;
+}
+div.Classification > div.Classification1 > div.titleclass1 > span.secondclass {
+  font-family: iranyekan;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  font-weight: lighter;
+  margin-right: 20px;
+}
+div.Classification > div.Classification1 > a.stage1 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 81px;
+  right: 30px;
+  border-left: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification1 > a.stage2 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 80px;
+  left: 33px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification1 > a.stage3 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 211px;
+  left: 33px;
+  border-right: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification1 > a.stage4 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 210px;
+  right: 30px;
+  border-top: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification1 > a.firststage {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: iranyekan;
+  font-size: 13px;
+}
+div.Classification > div.Classification2 {
+  width: 24.5%;
+  height: inherit;
+  /* background-color: red; */
+  border-left: 1px solid rgb(196, 194, 194);
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 325px;
+  cursor: pointer;
+}
+div.Classification > div.Classification2 > div.titleclass2 {
+  width: 99%;
+  height: 60px;
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  cursor: text;
+}
+div.Classification > div.Classification2 > div.titleclass2 > span.firstclass {
+  font-family: iranyekan;
+  margin-right: 20px;
+}
+div.Classification > div.Classification2 > div.titleclass2 > span.secondclass {
+  font-family: iranyekan;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  font-weight: lighter;
+  margin-right: 20px;
+}
+div.Classification > div.Classification2 > a.stage1 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 81px;
+  right: 30px;
+  border-left: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification2 > a.stage2 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 80px;
+  left: 33px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification2 > a.stage3 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 211px;
+  left: 33px;
+  border-right: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification2 > a.stage4 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 210px;
+  right: 30px;
+  border-top: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification2 > a.firststage {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: iranyekan;
+  font-size: 13px;
+}
+div.Classification > div.Classification3 {
+  width: 24.5%;
+  height: inherit;
+  border-left: 1px solid rgb(196, 194, 194);
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 651px;
+  cursor: pointer;
+}
+div.Classification > div.Classification3 > div.titleclass3 {
+  width: 99%;
+  height: 60px;
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  cursor: text;
+}
+div.Classification > div.Classification3 > div.titleclass3 > span.firstclass {
+  font-family: iranyekan;
+  margin-right: 20px;
+}
+div.Classification > div.Classification3 > div.titleclass3 > span.secondclass {
+  font-family: iranyekan;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  font-weight: lighter;
+  margin-right: 20px;
+}
+div.Classification > div.Classification3 > a.stage1 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 81px;
+  right: 30px;
+  border-left: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification3 > a.stage2 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 80px;
+  left: 33px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification3 > a.stage3 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 211px;
+  left: 33px;
+  border-right: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification3 > a.stage4 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 210px;
+  right: 30px;
+  border-top: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification3 > a.firststage {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: iranyekan;
+  font-size: 13px;
+}
+div.Classification > div.Classification4 {
+  width: 24.5%;
+  height: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 977px;
+  cursor: pointer;
+}
+div.Classification > div.Classification4 > div.titleclass4 {
+  width: 99%;
+  height: 60px;
+  position: absolute;
+  right: 1px;
+  top: 2px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  cursor: text;
+}
+div.Classification > div.Classification4 > div.titleclass4 > span.firstclass {
+  font-family: iranyekan;
+  margin-right: 20px;
+}
+div.Classification > div.Classification4 > div.titleclass4 > span.secondclass {
+  font-family: iranyekan;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  font-weight: lighter;
+  margin-right: 20px;
+}
+div.Classification > div.Classification4 > a.stage1 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 81px;
+  right: 30px;
+  border-left: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification4 > a.stage2 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 80px;
+  left: 33px;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification4 > a.stage3 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 211px;
+  left: 33px;
+  border-right: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification4 > a.stage4 > img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 210px;
+  right: 30px;
+  border-top: 1px solid rgb(196, 194, 194);
+}
+div.Classification > div.Classification4 > a.firststage {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: iranyekan;
+  font-size: 13px;
+}

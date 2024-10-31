@@ -1,0 +1,665 @@
+
+div.mainbestseller {
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  top: 3450px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+div.mainbestseller > div.bestseller {
+  width: 90%;
+  height: 400px;
+  position: absolute;
+  border: 1px solid rgb(196, 194, 194);
+  border-radius: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: end;
+  align-items: start;
+}
+div.mainbestseller > div.bestseller > div.bestsellertitle {
+  width: 99%;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+div.mainbestseller > div.bestseller > div.bestsellertitle > span.first {
+  position: absolute;
+  top: 5px;
+  font-family: iranyekan;
+  background-color: white;
+}
+div.mainbestseller > div.bestseller > div.bestsellertitle > div.bestsellericon {
+  position: absolute;
+  right: 515px;
+  top: 5px;
+  color: gold;
+  font-size: 20px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsellertitle
+  > a.bestseller
+  > span.second {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: white;
+  font-family: iranyekan;
+  font-size: 14px;
+  cursor: pointer;
+}
+div.mainbestseller > div.bestseller > div.bestsell1 {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  cursor: pointer;
+}
+div.mainbestseller > div.bestseller > div.bestsell1 > div.sell1 {
+  width: 300px;
+  height: 113px;
+  cursor: pointer;
+}
+div.mainbestseller > div.bestseller > div.bestsell1 > div.sell1 > a.bestsell1 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell1
+  > a.bestsell1
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell1
+  > a.bestsell1
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell1
+  > a.bestsell1
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell1 > div.sell2 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller > div.bestseller > div.bestsell1 > div.sell2 > a.bestsell2 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell2
+  > a.bestsell2
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell2
+  > a.bestsell2
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell2
+  > a.bestsell2
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell1 > div.sell3 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller > div.bestseller > div.bestsell1 > div.sell3 > a.bestsell3 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell3
+  > a.bestsell3
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell3
+  > a.bestsell3
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell1
+  > div.sell3
+  > a.bestsell3
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+}
+
+div.mainbestseller > div.bestseller > div.bestsell2 {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  right: 304px;
+  cursor: pointer;
+}
+
+div.mainbestseller > div.bestseller > div.bestsell2 > div.sell4 {
+  width: 300px;
+  height: 113px;
+  cursor: pointer;
+}
+div.mainbestseller > div.bestseller > div.bestsell2 > div.sell4 > a.bestsell4 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell4
+  > a.bestsell4
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell4
+  > a.bestsell4
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell4
+  > a.bestsell4
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell2 > div.sell5 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller > div.bestseller > div.bestsell2 > div.sell5 > a.bestsell5 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell5
+  > a.bestsell5
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell5
+  > a.bestsell5
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell5
+  > a.bestsell5
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell2 > div.sell6 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller > div.bestseller > div.bestsell2 > div.sell6 > a.bestsell6 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell6
+  > a.bestsell6
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell6
+  > a.bestsell6
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell2
+  > div.sell6
+  > a.bestsell6
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+}
+
+div.mainbestseller > div.bestseller > div.bestsell3 {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  right: 609px;
+  cursor: pointer;
+}
+
+div.mainbestseller > div.bestseller > div.bestsell3 > div.sell7 {
+  width: 300px;
+  height: 113px;
+  cursor: pointer;
+}
+div.mainbestseller > div.bestseller > div.bestsell3 > div.sell7 > a.bestsell7 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell7
+  > a.bestsell7
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell7
+  > a.bestsell7
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell7
+  > a.bestsell7
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell3 > div.sell8 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller > div.bestseller > div.bestsell3 > div.sell8 > a.bestsell8 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell8
+  > a.bestsell8
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell8
+  > a.bestsell8
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell8
+  > a.bestsell8
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell3 > div.sell9 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller > div.bestseller > div.bestsell3 > div.sell9 > a.bestsell9 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell9
+  > a.bestsell9
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell9
+  > a.bestsell9
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell3
+  > div.sell9
+  > a.bestsell9
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+}
+
+div.mainbestseller > div.bestseller > div.bestsell4 {
+  width: 300px;
+  height: 340px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  position: absolute;
+  left: 2px;
+}
+
+div.mainbestseller > div.bestseller > div.bestsell4 > div.sell10 {
+  width: 300px;
+  height: 113px;
+  cursor: pointer;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell10
+  > a.bestsell10 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell10
+  > a.bestsell10
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell10
+  > a.bestsell10
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell10
+  > a.bestsell10
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell4 > div.sell11 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell11
+  > a.bestsell11 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell11
+  > a.bestsell11
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell11
+  > a.bestsell11
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell11
+  > a.bestsell11
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+  border-bottom: 1px solid rgb(196, 194, 194);
+}
+div.mainbestseller > div.bestseller > div.bestsell4 > div.sell12 {
+  width: 300px;
+  height: 113px;
+  margin-top: 1px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell12
+  > a.bestsell12 {
+  position: absolute;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell12
+  > a.bestsell12
+  > img {
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  top: 5px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell12
+  > a.bestsell12
+  > span.number {
+  font-family: iranyekan;
+  font-weight: bolder;
+  position: absolute;
+  top: 35px;
+  right: 90px;
+  font-size: 30px;
+}
+div.mainbestseller
+  > div.bestseller
+  > div.bestsell4
+  > div.sell12
+  > a.bestsell12
+  > span.text {
+  width: 185px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  right: 110px;
+  color: black;
+}

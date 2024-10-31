@@ -1,0 +1,134 @@
+div.maindigiclub {
+  width: 100%;
+  height: 110px;
+  position: absolute;
+  top: 3330px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.digiclub {
+  width: 98%;
+  height: 100px;
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  position: absolute;
+}
+div.digiclub>div.digiclubicon>svg{
+    width: 130px;
+    height: 100px;
+    margin-right: 20px;
+}
+div.digiclub>div.digiclubitem{
+    width:70%;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem1>div.digiclubitem1{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+.fa-hand-fingers-crossed{
+    color:aqua;
+    font-size: 16px;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem1>div.digiclubitem1>span{
+    font-family: iranyekan;
+    font-size: 14px;
+    position: absolute;
+    right: 50px;
+    color: black;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem1>div.digiclubitem1>img{
+    width: 150px;
+    height: inherit;
+    position: absolute;
+    left: 0;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem2>div.digiclubitem2{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    margin-right: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 310px;
+    cursor: pointer;
+}
+.fa-bullseye-arrow{
+    color: aqua;
+    font-size: 16px;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem2>div.digiclubitem2>span{
+    font-family: iranyekan;
+    font-size: 14px;
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    color: black;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem2>div.digiclubitem2>img{
+    width: 190px;
+    height: inherit;
+    position: absolute;
+    left: 0;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem3>div.digiclubitem3{
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    margin-right: 5px;
+    border-top-left-radius:15px ;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    cursor: pointer;
+}
+.fa-ticket-perforated{
+    color: aqua;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem3>div.digiclubitem3>span{
+    font-family: iranyekan;
+    font-size: 14px;
+    position: absolute;
+    right: 50px;
+    color: black;
+}
+div.digiclub>div.digiclubitem>a.digiclubitem3>div.digiclubitem3>img{
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    left: 3px;
+    border-radius: 15px;
+}

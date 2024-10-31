@@ -1,0 +1,406 @@
+div.moreparents {
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  top: 760px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 85px;
+}
+a.more > span.moredescription {
+  width: 60px;
+  height: 90px;
+  font-family: iranyekan;
+  color: black;
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  cursor: pointer;
+}
+img.more {
+  width: 50px;
+  height: 50px;
+  padding-top: 30px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+p.morelabel {
+  width: 20px;
+  height: 90px;
+  font-family: iranyekan;
+  color: black;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 30px;
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+  cursor: pointer;
+}
+label[for="more"] {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #d1d2d4;
+  position: absolute;
+  top: 790px;
+  left: 30px;
+  border-radius: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+  cursor: pointer;
+}
+label[for="more"] > div.dot1,
+div.dot2,
+div.dot3 {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+}
+.dot1 {
+  right: 10px;
+}
+.dot2 {
+  right: 20px;
+}
+.dot3 {
+  right: 30px;
+}
+div.moremenu {
+  width: 670px;
+  height: 400px;
+  position: absolute;
+  top: 450px;
+  right: -700px;
+  z-index: 2000;
+  transition: 500ms;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+}
+input#more:checked ~ div.moremenu {
+  right: 350px;
+}
+div.moremenu > label[for="nomore"] {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 410px;
+  position: absolute;
+  font-family: iranyekan;
+  top: 5px;
+  right: 30px;
+  justify-content: end;
+  border-bottom: 1px solid #8b9099;
+  cursor: pointer;
+}
+div.moremenu > span {
+  font-family: iranyekan;
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+div.moremenu > div.topmore {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  gap: 30px;
+}
+div.moremenu > div.topmore > a.service > img.more2 {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+div.moremenu > div.topmore > span.moredescription1,
+span.moredescription2,
+span.moredescription3,
+span.moredescription4,
+span.moredescription5,
+span.moredescription6,
+span.moredescription7,
+span.moredescription8,
+span.moredescription9,
+span.moredescription10,
+span.moredescription11,
+span.moredescription12 {
+  width: 60px;
+  height: 90px;
+  position: absolute;
+  font-family: iranyekan;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 25px;
+}
+span.moredescription1 {
+  top: 60px;
+}
+span.moredescription2 {
+  top: 60px;
+  right: 70px;
+}
+span.moredescription3 {
+  top: 60px;
+  right: 150px;
+}
+span.moredescription4 {
+  top: 60px;
+  right: 235px;
+}
+span.moredescription5 {
+  top: 60px;
+  right: 320px;
+}
+span.moredescription6 {
+  top: 60px;
+  right: 400px;
+}
+span.moredescription7 {
+  top: 60px;
+  right: 480px;
+}
+span.moredescription8 {
+  top: 60px;
+  right: 560px;
+}
+span.moredescription9 {
+  top: 275px;
+}
+span.moredescription10 {
+  top: 275px;
+  right: 70px;
+}
+span.moredescription11 {
+  top: 275px;
+  right: 150px;
+}
+span.moredescription12 {
+  top: 275px;
+  right: 235px;
+}
+p.topicmore {
+  width: inherit;
+  height: 40px;
+  position: absolute;
+  top: 430px;
+  font-family: iranyekan;
+  font-size: 15px;
+  color: #818181;
+}
+div.bottommore {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 470px;
+  display: flex;
+  flex-flow: row;
+}
+div.bottommore > div.rightmore {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+}
+div.bottommore > div.rightmore > a.right1 {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #818181;
+  border-radius: 25px;
+  cursor: pointer;
+}
+div.bottommore > div.rightmore > a.right1 > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+}
+div.bottommore > div.rightmore > a.right1 > h4.right1 {
+  width: 38%;
+  display: flex;
+  font-family: iranyekan;
+  color: black;
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  gap: 150px;
+}
+div.bottommore > div.rightmore > a.right1 > span.right1 {
+  color: #818181;
+  position: absolute;
+  top: 68px;
+  right: 40px;
+  font-family: iranyekan;
+  font-size: 11px;
+}
+div.bottommore > div.rightmore > a.right2 {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #818181;
+  border-radius: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+div.bottommore > div.rightmore > a.right2 > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 143px;
+}
+div.bottommore > div.rightmore > a.right2 > h4.right2 {
+  width: 38%;
+  display: flex;
+  font-family: iranyekan;
+  color: black;
+  position: absolute;
+  top: 150px;
+  right: 70px;
+  gap: 150px;
+}
+div.bottommore > div.rightmore > a.right2 > span.right2 {
+  color: #818181;
+  position: absolute;
+  top: 210px;
+  right: 20px;
+  font-family: iranyekan;
+  font-size: 11px;
+}
+div.bottommore > div.rightmore > a.right3 {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #818181;
+  border-radius: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+div.bottommore > div.rightmore > a.right3 > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 280px;
+}
+div.bottommore > div.rightmore > a.right3 > h4.right3 {
+  width: 38%;
+  display: flex;
+  font-family: iranyekan;
+  color: black;
+  position: absolute;
+  top: 289px;
+  right: 70px;
+  gap: 175px;
+}
+div.bottommore > div.rightmore > a.right3 > span.right3 {
+  color: #818181;
+  position: absolute;
+  top: 350px;
+  right: 50px;
+  font-family: iranyekan;
+  font-size: 11px;
+}
+
+div.bottommore > div.leftmore {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+}
+div.bottommore > div.leftmore > a.left1 {
+  width: 95%;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #818181;
+  border-radius: 25px;
+  cursor: pointer;
+}
+div.bottommore > div.leftmore > a.left1 > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+}
+div.bottommore > div.leftmore > a.left1 > h4.left1 {
+  width: 38%;
+  display: flex;
+  font-family: iranyekan;
+  color: black;
+  position: absolute;
+  top: 20px;
+  right: 400px;
+  gap: 150px;
+}
+div.bottommore > div.leftmore > a.left1 > span.left1 {
+  color: #818181;
+  position: absolute;
+  top: 60px;
+  right: 400px;
+  font-family: iranyekan;
+  font-size: 11px;
+}
+div.bottommore > div.leftmore > a.left2 {
+  width: 95%;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #818181;
+  border-radius: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+div.bottommore > div.leftmore > a.left2 > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 143px;
+  border-radius: 50%;
+}
+div.bottommore > div.leftmore > a.left2 > h4.left2 {
+  width: 38%;
+  display: flex;
+  font-family: iranyekan;
+  color: black;
+  position: absolute;
+  top: 150px;
+  right: 400px;
+  gap: 150px;
+}
+div.bottommore > div.leftmore > a.left3 {
+  width: 95%;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #818181;
+  border-radius: 25px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+div.bottommore > div.leftmore > a.left3 > img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 280px;
+}
+div.bottommore > div.leftmore > a.left3 > h4.left3 {
+  width: 38%;
+  display: flex;
+  font-family: iranyekan;
+  color: black;
+  position: absolute;
+  top: 289px;
+  right: 400px;
+  gap: 175px;
+}

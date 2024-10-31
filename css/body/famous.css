@@ -1,0 +1,82 @@
+div.mainfamous {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 2410px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+div.mainfamous > div.famous {
+  width: 100%;
+  height: 190px;
+  border: 1px solid rgb(196, 194, 194);
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px 20px 20px 0px;
+  padding-top: 50px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.mainfamous > div.famous > div.famoustitle {
+  width: 100%;
+}
+div.mainfamous > div.famous > div.famoustitle > span {
+  font-family: iranyekan;
+  font-size: 20px;
+  position: absolute;
+  right: 550px;
+  top: 10px;
+  z-index: 1000;
+}
+.fa-stars {
+  color: gold;
+}
+a.famous {
+  width: 115px;
+  height: 120px;
+  border-left: 1px solid rgb(196, 194, 194);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+img.famous {
+  width: 90px;
+  height: 90px;
+}
+img.famousada {
+  width: 90px;
+  height: 70px;
+}
+img.famoussam {
+  width: 90px;
+  height: 40px;
+}
+img.famousmi {
+  width: 50px;
+  height: 50px;
+}
+img.famousmr {
+  width: 90px;
+  height: 70px;
+}
